@@ -1,0 +1,1 @@
+mudar_cam(global._cam_verificar)

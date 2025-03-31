@@ -1,8 +1,8 @@
-for(var _i = 0; _i < array_length(global._cams); _i++){
-	if(_i == global._cam_atual){
-		global._cams[_i].sprite_index = spr_teste2
-	}
-	else{
-		global._cams[_i].sprite_index = spr_testes
-	}
+if(global._jumpscare == true){
+	global._cronometro_jump--
+}
+if(global._cronometro_jump <= 0){
+	global._jumpscare = false
+		global._cronometro_jump = 60*5
+	jumpscare()
 }

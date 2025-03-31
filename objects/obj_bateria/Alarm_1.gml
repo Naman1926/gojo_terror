@@ -1,0 +1,5 @@
+instance_destroy(obj_gojo)
+instance_destroy(obj_som_fundo)
+instance_destroy(obj_hora)
+instance_destroy()
+room_goto(room_no_light)

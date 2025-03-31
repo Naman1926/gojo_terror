@@ -1,0 +1,7 @@
+audio_stop_sound(snd_fundo)
+instance_destroy(obj_hora)
+instance_destroy(obj_som_fundo)
+instance_destroy(obj_bateria)
+instance_destroy(obj_resolucao)
+instance_destroy()
+game_restart()
